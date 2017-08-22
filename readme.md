@@ -18,23 +18,25 @@
 
 ## Myshell基本功能
 
-- 内建命令  
-命令      指令格式                        说明  
-bg      bg [job_spec ...]           将进程调到后台执行  
-cd      cd [dir]                    改变当前的工作目录  
-clr     clr                         清屏操作  
-echo    echo [arg ...]              将变量或者字符打印到标准输出  
-dir dir [dir]                       列出指定目录下的所有文件  
-environ environ                     列出所有的环境变量  
-exit    exit                        正常退出myshell  
-help    help [inst]                 显示内建命令的帮助列表  
-jobs    jobs                        显示出当前正在运行的进程信息  
-myshell myshell [filename]          解释shell脚本文件  
-pwd     pwd                         显示当前的工作目录  
-set set [-$] [command or arg ...]   设置位置参数  
-shift   shift [n]                   移动位置参数  
-time    time                        显示出系统当前的日期和时间  
-unset   unset [name]                取消变量的设定  
+> 内建命令  
+
+|命令 | 指令格式 | 说明| 
+|:---|:---|:---|
+|__bg__|bg [job_spec ...] |将进程调到后台执行| 
+|__cd__|cd [dir] | 改变当前的工作目录|  
+|__clr__| clr | 清屏操作| 
+|__echo__| echo [arg ...] | 将变量或者字符打印到标准输出| 
+|__dir__| dir [dir] | 列出指定目录下的所有文件| 
+|__environ__| environ | 列出所有的环境变量| 
+|__exit__| exit | 正常退出myshell| 
+|__help__| help [inst] | 显示内建命令的帮助列表| 
+|__jobs__| jobs | 显示出当前正在运行的进程信息| 
+|__myshell__| myshell [filename] | 解释shell脚本文件| 
+|__pwd__| pwd | 显示当前的工作目录| 
+|__set__| set [-$] [command or arg ...] | 设置位置参数| 
+|__shift__| shift [n] | 移动位置参数| 
+|__time__| time | 显示出系统当前的日期和时间| 
+|__unset__| unset [name] | 取消变量的设定| 
 
 其中：
 set命令允许通过指令设置位置参数，例如 set $(ls | grep temp)。  
